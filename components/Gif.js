@@ -28,4 +28,8 @@ Gif = React.createClass({
   }
 });
 
-
+// propTypes: {
+//   sourceUrl: React.PropTypes.string.isRequired,
+//   url: React.PropTypes.string.isRequired,
+//   loading: React.PropTypes.bool.isRequired,
+// },
