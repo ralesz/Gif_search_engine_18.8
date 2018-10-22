@@ -1,5 +1,9 @@
 Search = React.createClass({
 
+  propTypes: {
+    onSearch: React.PropTypes.string.isRequired
+  },
+
     getInitialState() {
         return {
           searchingText: ''
